@@ -393,7 +393,12 @@ func main() {
 	}
 	
 	initPortMap()
-	limitConfig.Init("limit.json")
+	if runtime.GOOS == "linux"  {
+		limitConfig.Init("/etc/limit.json")
+	} else {
+		limitConfig.Init("limit.json")
+	}
+	
 	
 	for port, password := range config.PortPassword {
 		go run(port, password)
