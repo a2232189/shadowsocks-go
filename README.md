@@ -8,6 +8,7 @@
 3. 限制多ip用同一个账号
 ```
 
+
 # shadowsocks-go
 
 Current version: 1.1.3 [![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-go.png?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-go)
