@@ -1,3 +1,13 @@
+
+### 这个版本添加了自动账号管理和限制ip等功能，使得每个人都可以开始售卖ss
+
+```
+新功能：
+1. 提供一个web端，可以直接通过web端来添加和账号
+2. 到期账号自动失效
+3. 限制多ip用同一个账号
+```
+
 # shadowsocks-go
 
 Current version: 1.1.3 [![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-go.png?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-go)
