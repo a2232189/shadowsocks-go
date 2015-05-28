@@ -8,6 +8,7 @@
 3. 限制多ip用同一个账号
 ```
 
+已经build好的版本，包含win和linux：[链接](http://files.cnblogs.com/files/dearplain/shadowsocks.zip)
 
 # shadowsocks-go
 
